@@ -1,0 +1,12 @@
+server:
+  port: 8089
+
+kafka:
+  consumer:
+    bootstrap: os-master.vpbank.vn:9092
+    group: WorkUnitApp
+    topic: vn.com.fpt.topic
+spring1:  redis:    host: 192.168.131.129
+    port: 6379
+  
+  

@@ -1,0 +1,7 @@
+server:
+  port: 8087
+
+kafka:
+  producer:
+    bootstrap: os-master.vpbank.vn:9092
+    topic: vn.com.fpt.topic
